@@ -1,25 +1,25 @@
 body, html {
-  background-color: #B0BEC6;
-  color: #ECEFF1;
+  background-color: #ECEFF1;
+  color: white;
   font-family: "Roboto", sans-serif, monospace;
   font-size: 1em;
   font-weight: bold;
+  line-height: 1.5;
+  text-align: left;
 }
 
 h1 {
   background-color: #455A64;
-  border-bottom: 0.2em solid #FA6F03;
-  color: #FA6F03;
   font-size: 2em;
-  margin-top: 2em;
-  padding: 1em;
 }
 
 body>header {
   background-color: #607D8B;
-  line-height: 1.5;
   padding: 0.5em;
-  text-align: left;
+}
+
+p {
+  margin-left: 0.5em;
 }
 
 .sectionTitle {
@@ -27,14 +27,11 @@ body>header {
   border-bottom: 0.2em solid #FA6F03;
   margin-top: 1em;
   padding: 0.5em 1em;
-  text-align: center;
 }
 
-.eduSteps, .workSteps, .favorite {
+.eduSteps, .workSteps, .favorite, .pres {
   background-color: #607D8B;
-  line-height: 1;
   padding: 0.5em;
-  text-align: left;
 }
 
 h3 {
@@ -52,7 +49,7 @@ li {
 }
 
 a:link, a:visited {
-  color: #ECEFF1;
+  color: white;
 }
 
 a:hover {
