@@ -4,53 +4,61 @@ body, html {
   font-family: "Roboto", sans-serif, monospace;
   font-size: 1em;
   font-weight: bold;
-  text-align: center;
 }
 
 h1 {
   background-color: #455A64;
   border-bottom: 0.2em solid #FA6F03;
+  color: #FA6F03;
   font-size: 2em;
   margin-top: 2em;
   padding: 1em;
 }
 
-h2 {
-  background-color: #455A64;
-  font-style: italic;
-  padding: 0.5em 0;
-}
-
-h3 {
-  background-color: #455A64;
-  padding: 0.5em 0;
-}
-
-p {
+body>header {
   background-color: #607D8B;
   line-height: 1.5;
   padding: 0.5em;
   text-align: left;
 }
 
-ul, ol {
+.sectionTitle {
+  background-color: #455A64;
+  border-bottom: 0.2em solid #FA6F03;
+  margin-top: 1em;
+  padding: 0.5em 1em;
+  text-align: center;
+}
+
+.eduSteps, .workSteps, .favorite {
   background-color: #607D8B;
-  padding: 2.5em;
+  line-height: 1;
+  padding: 0.5em;
   text-align: left;
 }
 
-li {
+h3 {
+  background-color: #455A64;
   padding: 0.5em;
 }
 
-li a {
+footer {
+  background-color: #455A64;
+  padding: 0 0.3em;
+}
+
+li {
+  padding: 0.1em;
+}
+
+a:link, a:visited {
   color: #ECEFF1;
 }
 
-li a:hover {
+a:hover {
   color: #FA6F03;
 }
 
-li a:active {
+a:active {
   color: #FB8C00;
 }
