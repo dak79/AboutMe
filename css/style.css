@@ -86,7 +86,7 @@ footer {
   text-align: center;
 }
 
-a:link, a:visited {
+a:visited {
   color: white;
 }
 
@@ -96,4 +96,13 @@ a:hover {
 
 a:active {
   color: #FB8C00;
+}
+
+.endButton {
+  background-color: #455A64;
+  color: white;
+  border: 0.2em solid #FA6F03;
+}
+.endButton:hover {
+  background-color: #FA6F03;
 }
